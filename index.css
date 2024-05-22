@@ -1,0 +1,65 @@
+/*! Code With harry */
+
+
+/* .container{
+background-color: red;
+height: 700px;
+display: grid; */
+/* grid-template-columns:133px 133px 133px ;
+grid-template-rows:133px 133px 133px  ; */
+/* grid-template-columns:1fr , 1fr ,1fr ;
+grid-template-rows: 143px , 1fr ,43px ;
+justify-items: center;
+row-gap: 12px;
+column-gap: 12px;
+align-items: center;
+} */
+
+/* .item{
+background-color: aqua;
+grid-column: 1 / span 3; */
+/* height: 122px; */
+/* width: 122px; 
+}
+.item1{
+grid-column-start: 1;
+grid-column-end: 3;
+color: white;
+background-color: black;
+width: 100vw;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+} */
+
+ 
+
+/* ! Apna College  */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns:minmax(50px,auto);
+    column-gap: 120px;
+    row-gap: 120px
+    ;
+}
+.item{
+    background-color: lightcoral;
+    border: 3px solid green;
+    border-radius: 3px;
+}
+#item-1{
+grid-row-start:1 ;
+grid-row-end:3 ;
+}
+#item-2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
